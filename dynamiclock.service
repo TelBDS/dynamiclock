@@ -1,0 +1,10 @@
+[Unit]
+Description=Dynamic Lock service.
+
+[Service]
+Type=oneshot
+# User=baip
+ExecStart=/home/dynamiclock/dynamiclock.sh
+
+[Install]
+WantedBy=default.target
