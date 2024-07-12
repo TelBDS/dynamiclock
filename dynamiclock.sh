@@ -2,8 +2,8 @@
 # 检测蓝牙设备是否断开.如果断开就锁屏
 
 # 蓝牙设备名称和MAC地址
-name="Baip"
-device="B8:14:4D:85:D1:02"
+name="name of bluetooth device"
+device="mac address of bluetooth device"
 
 num_name=$(bluetoothctl info | grep "Name: $name" | wc -l)
 num_device=$(bluetoothctl info | grep "Device $device" | wc -l)
