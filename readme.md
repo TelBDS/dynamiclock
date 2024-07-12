@@ -4,6 +4,7 @@
 2. 确保系统KDE登录之后能够自动连接设备
 3. 确保设备之前已经完成了配对,并加入了信任列表
 4. 使用bluetoothctl命令查看设备的NAME和MAC地址
+5. 修改dynamiclock.sh中的name和device,信息通过第4步获取
 
 ## 安装
 make install
