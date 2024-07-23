@@ -2,9 +2,9 @@
 Description=Dynamic Lock timer.
 
 [Timer]
-OnActiveSec=5s
-# 每次运行后再次等待5秒
-OnUnitActiveSec=5s  
+OnActiveSec=15s
+# 每次运行后再次等待15秒
+OnUnitActiveSec=15s  
 Persistent=true
 
 [Install]
